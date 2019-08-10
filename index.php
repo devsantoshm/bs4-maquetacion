@@ -82,6 +82,22 @@
             <h4>Funciones a medida</h4>
          </li>
       </ul>
-    </section>
+   </section>
+   <!-- Se usa la etiqueta main para que el buscador de google ponga mayor relevancia a esta etiqueta -->
+   <main class="servicios p-y-1">
+      <h2>Nuestros Servicios</h2>
+      <article>
+         <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
+         <h3><a href="#"> Desarrollo de Aplicaciones Mobiles </a></h3>
+      </article>
+      <article>
+         <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
+         <h3><a href="#">Consultoría Tecnológica</a></h3>
+      </article>
+      <article>
+         <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
+         <h3><a href="#">Marketing y publicidad Movil</a></h3>
+      </article>
+   </main>
 </body>
 </html>
