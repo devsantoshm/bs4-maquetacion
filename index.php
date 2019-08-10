@@ -99,5 +99,22 @@
          <h3><a href="#">Marketing y publicidad Movil</a></h3>
       </article>
    </main>
+   <section class="ultimos-proyectos">
+      <h2>Últimos proyectos</h2>
+      <a href="#">
+         <h4>App Lima Travels</h4>
+         <img src="images/proyecto1.jpg" alt="App Lima Travels">
+      </a>
+   </section>
+   <footer class="piedepagina" role="contentinfo">
+      <p>2016 © NETWORK Todos los derechos reservados</p>
+         <ul>
+             <li><a href="#">Facebook</a></li>
+             <li><a href="#">Twitter</a></li>
+             <li><a href="#">Youtube</a></li>
+         </ul>
+   </footer>
+
+   <a href="#ir-arriba">Ir arriba</a>
 </body>
 </html>
