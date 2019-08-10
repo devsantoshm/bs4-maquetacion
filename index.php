@@ -51,5 +51,37 @@
       <p>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con supervisión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación, diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseñadas por nosotros y avaladas por nuestros años de experiencia.</p>
       <img src="images/agencia.svg" alt="La agencia">
    </section>
+   <section class="tu-mejor-eleccion">
+      <h2>¿Porque somos <span>tu mejor elección?</span></h2>
+      <p>
+          Desarrollo web y Apps para empresas y profesionales
+      </p>
+      <ul>
+         <li>
+            <img src="images/icono.svg">
+            <h4>Aplicaciones para la nube</h4>
+         </li>
+         <li>
+            <img src="images/icono.svg">
+            <h4>Fábrica de software</h4>
+         </li>
+         <li>
+            <img src="images/icono.svg">
+            <h4>Gestión en la Nube</h4>
+         </li>
+         <li>
+            <img src="images/icono.svg">
+            <h4>Videojuegos</h4>
+         </li>
+         <li>
+            <img src="images/icono.svg">
+            <h4>Diseño personalizado</h4>
+         </li>
+         <li>
+            <img src="images/icono.svg">
+            <h4>Funciones a medida</h4>
+         </li>
+      </ul>
+    </section>
 </body>
 </html>
