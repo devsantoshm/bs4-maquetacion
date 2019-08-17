@@ -16,6 +16,34 @@
         header {
             background: #cff821;
             padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            flex: 0 1 180px;
+        }
+        
+        header a img {
+            width: 100%;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        
+        header nav ul li a {
+            display: block;
+            background: red;
+            color: #fff;
+            padding: 1rem;
+            margin: 0 .3rem;
+            border-radius: 5px;
+            text-decoration: none;
         }
         
         .contenido {
