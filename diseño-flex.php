@@ -79,6 +79,22 @@
             order: 4;
         }
 
+        @media (max-width:1000px) {
+            .contenedor {
+                max-width: 90%;
+            }
+        }
+        
+        @media (max-width:870px) {
+            header {
+                flex-direction: column;
+            }
+            header a {
+                flex: 0 1 auto;
+                margin-bottom: 1rem;
+            }
+        }
+
     </style>
 </head>
 
