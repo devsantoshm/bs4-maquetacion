@@ -11,14 +11,18 @@
         .contenedor {
             max-width: 80%;
             margin: 1rem auto;
+            display: flex;
+            flex-wrap: wrap; /* sirve para envolver la primera columna */ 
         }
         
         header {
+            flex: 1 1 100%; /* la columna uno que ocupe toda la fila */
             background: #cff821;
             padding: 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            order: 0;
         }
 
         header a {
@@ -48,19 +52,31 @@
         
         .contenido {
             background: #9ce317;
+            flex: 3 1 0px;
+            padding: 1rem;
+            order: 2;
         }
         
         .lateral-1 {
             background: #16c1c7;
+            flex: 1 1 0px;
+            padding: 1rem;
+            order: 1;
         }
         
         .lateral-2 {
             background: #f50fae;
+            flex: 1 1 0px;
+            padding: 1rem;
+            order: 3;
         }
         
         footer {
             background: #0f0e0e;
             color: #fff;
+            flex: 1 1 100%;
+            text-align: center;
+            order: 4;
         }
 
     </style>
