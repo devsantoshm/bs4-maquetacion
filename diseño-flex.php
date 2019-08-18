@@ -95,6 +95,39 @@
             }
         }
 
+        @media (max-width:700px) {
+            .lateral-1,
+            .lateral-2,
+            .contenido {
+                flex: 1 1 100%;
+            }
+        }
+        
+        @media (max-width:590px) {
+            .contenedor {
+                max-width: 100%;
+                margin: 0;
+            }
+            header {
+                padding: 1rem 0 0 0;
+                justify-content: center;
+                align-items: stretch;
+            }
+            header a.logo {
+                align-self: center;
+                padding: 1rem;
+            }
+            header nav ul {
+                flex-direction: column;
+            }
+            header nav ul li a {
+                margin: 0;
+                border-radius: 0;
+                border-bottom: 1px solid #af0f0f;
+                text-align: center;
+            }
+        }
+
     </style>
 </head>
 
