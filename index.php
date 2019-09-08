@@ -19,7 +19,7 @@
             </a>
 
             <button type="button" class="boton-buscar">
-               <i class="fas fa-search"></i>
+               <i class="fa fa-search"></i>
             </button>
             <button type="button" class="boton-menu">
                <i class="fa fa-bars" aria-hidden="true"></i>
