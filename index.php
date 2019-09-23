@@ -18,21 +18,21 @@
                <img src="images/logo.svg" alt="Logo del sitio">
             </a>
 
-            <button type="button" class="boton-buscar">
+            <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
                <i class="fa fa-search"></i>
             </button>
-            <button type="button" class="boton-menu">
+            <button type="button" class="boton-menu" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
                <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
 
-            <form action="#" id="bloque-buscar">
+            <form action="#" id="bloque-buscar" class="collapse">
                <div class="contenedor-bloque-buscar">
                   <input type="text" placeholder="Buscar...">
                   <input type="submit" value="Buscar">
                </div>
             </form>
 
-            <nav id="menu-principal">
+            <nav id="menu-principal" class="collapse">
                <ul>
                   <li class="active"><a href="index.php">Inicio</a></li>
                   <li><a href="nosotros.php">Nosotros</a></li>
@@ -126,6 +126,8 @@
    </footer>
 
    <a href="#ir-arriba">Ir arriba</a>
-   <script src="js/bootstrap.min.js"></script>
+   <!-- <script src="js/bootstrap.min.js"></script> -->
+   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
