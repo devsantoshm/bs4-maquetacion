@@ -5,6 +5,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #111111; }
 
+.bienvenidos {
+  background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+  color: #fff;
+  background-size: cover;
+  /* cubre el ancho y alto del contenedor */
+  height: 100vh;
+  /* Permite visualizar todo el alto de la pantalla con viewport height */ }
+
 .encabezado {
   background: #111111;
   color: #fff;
