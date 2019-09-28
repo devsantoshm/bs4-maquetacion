@@ -94,3 +94,20 @@ body {
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
   color: #12AFAF; }
+
+.texto-encabezado .display-4 {
+  margin-top: 4rem; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #12AFAF;
+  border-color: transparent;
+  margin-top: 1rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover {
+  background-color: #009500;
+  border-color: transparent; }

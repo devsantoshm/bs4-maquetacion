@@ -86,3 +86,20 @@ body{
 #menu-principal ul li.active a {
     color: $principal;
 }
+
+.texto-encabezado .display-4 {
+    margin-top: 4rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: $principal;
+    border-color: transparent;
+    margin-top: 1rem;
+    transition: all .5s ease;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover {
+    background-color: $secundario;
+    border-color: transparent;
+}

@@ -43,12 +43,12 @@
          </div>
       </header>
 
-      <div class="texto-encabezado">
-
-         <h1>Diseño de APPS para empresas</h1>
-         <p>Creamos aplicaciones según las necesidades y requerimientos de nuestros clientes.</p>
-         <a href="contacto.php">Ponte en contacto</a>
-
+      <div class="texto-encabezado text-center">
+         <div class="container">
+            <h1 class="display-4">Diseño de APPS para empresas</h1>
+            <p>Creamos aplicaciones según las necesidades y requerimientos de nuestros clientes.</p>
+            <a href="contacto.php" class="btn btn-primary btn-lg">Ponte en contacto</a>   
+         </div>
       </div>
 
       <div class="flecha-bajar">
