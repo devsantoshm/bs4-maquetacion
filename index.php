@@ -51,9 +51,9 @@
          </div>
       </div>
 
-      <div class="flecha-bajar">
-         <a href="#agencia">Boton bajar</a>
-      </div>
+      <div class="flecha-bajar text-center">
+         <a href="#agencia"> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+     </div>
    </section>
    <section class="agencia" id="agencia">
       <h2>Agencia de programación de aplicaciones</h2>
