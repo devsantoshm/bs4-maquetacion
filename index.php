@@ -71,36 +71,61 @@
       </div>
    </section>
    <section class="tu-mejor-eleccion">
-      <h2>¿Porque somos <span>tu mejor elección?</span></h2>
-      <p>
-          Desarrollo web y Apps para empresas y profesionales
-      </p>
-      <ul>
-         <li>
-            <img src="images/icono.svg">
-            <h4>Aplicaciones para la nube</h4>
-         </li>
-         <li>
-            <img src="images/icono.svg">
-            <h4>Fábrica de software</h4>
-         </li>
-         <li>
-            <img src="images/icono.svg">
-            <h4>Gestión en la Nube</h4>
-         </li>
-         <li>
-            <img src="images/icono.svg">
-            <h4>Videojuegos</h4>
-         </li>
-         <li>
-            <img src="images/icono.svg">
-            <h4>Diseño personalizado</h4>
-         </li>
-         <li>
-            <img src="images/icono.svg">
-            <h4>Funciones a medida</h4>
-         </li>
-      </ul>
+      <div class="container">
+         <h2 class="text-center font-weight-bold">¿Porque somos <span>tu mejor elección?</span></h2>
+         <p class="text-center">
+             Desarrollo web y Apps para empresas y profesionales
+         </p>
+         <div class="row">
+            <!-- col-xs-6 es igual a col-6 y es <576px-->
+            <ul class="col-6">
+               <li>
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                  <div class="contenedor-eleccion">
+                     <h4>Aplicaciones para la nube</h4> 
+                     <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>  
+                  </div>  
+               </li>
+               <li>
+                  <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                  <div class="contenedor-eleccion">
+                      <h4>Fábrica de software</h4>
+                      <p>Servicios de mejora correctiva y evolutiva para sus aplicaciones.</p>
+                  </div>
+               </li>
+               <li>
+                  <i class="fa fa-comment-o" aria-hidden="true"></i>
+                  <div class="contenedor-eleccion">
+                      <h4>Gestión en la Nube</h4>
+                      <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
+                  </div>
+               </li>
+            </ul>
+            <ul class="col-6">
+               <li>
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <div class="contenedor-eleccion">
+                      <h4>Videojuegos</h4>
+                      <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
+                  </div>
+               </li>
+               <li>
+                  <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  <div class="contenedor-eleccion">
+                      <h4>Diseño personalizado</h4>
+                      <p>Customiza hasta el último píxel de tu App. Infinitas Posibilidades.</p>
+                  </div>
+               </li>
+               <li>
+                  <i class="fa fa-cogs" aria-hidden="true"></i>
+                  <div class="contenedor-eleccion">
+                      <h4>Funciones a medida</h4>
+                      <p>Tienes más de 50 funciones predesarrolladas para escoger.</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
    </section>
    <!-- Se usa la etiqueta main para que el buscador de google ponga mayor relevancia a esta etiqueta -->
    <main class="servicios p-y-1">
