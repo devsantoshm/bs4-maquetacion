@@ -134,3 +134,14 @@ body{
         transform: translateY(0);
     }
 }
+
+/* SECCIÓN AGENCIA */
+.agencia{
+	background: $principal;
+	color: #fff;
+}
+.agencia img{
+	width: 80%;
+	margin: 0 auto;
+	display: block; /* Para centrar la imagen se convierte en bloque */
+}

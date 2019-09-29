@@ -55,11 +55,20 @@
          <a href="#agencia"> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
      </div>
    </section>
-   <section class="agencia" id="agencia">
-      <h2>Agencia de programación de aplicaciones</h2>
-      <p>NETWORK te asesora en el desarrollo y el diseño para que tu Aplicación Movil salga a la luz. Ponemos a tu disposición las mejores plataformas del mundo de las telecomunicaciones.</p>
-      <p>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con supervisión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación, diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseñadas por nosotros y avaladas por nuestros años de experiencia.</p>
-      <img src="images/agencia.svg" alt="La agencia">
+   <section class="agencia py-3" id="agencia">
+      <div class="container">
+         <div class="row">
+            <!-- Se omite poner col-xs-12 por que ya lo considera el 100% de ancho automáticamente -->
+            <div class="col-md-8 col-xl-9">
+               <h2 class="text-center text-md-left font-weight-bold">Agencia de programación de aplicaciones</h2> 
+               <p>NETWORK te asesora en el desarrollo y el diseño para que tu Aplicación Movil salga a la luz. Ponemos a tu disposición las mejores plataformas del mundo de las telecomunicaciones.</p>
+               <p>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con supervisión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación, diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseñadas por nosotros y avaladas por nuestros años de experiencia.</p>
+            </div>
+            <div class="col-md-4 col-xl-3">
+               <img src="images/agencia.svg" alt="La agencia">
+            </div>
+         </div>
+      </div>
    </section>
    <section class="tu-mejor-eleccion">
       <h2>¿Porque somos <span>tu mejor elección?</span></h2>
