@@ -229,8 +229,37 @@ body {
 
 .servicios h3 {
   margin: 0;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
 
 .servicios h3 a {
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.servicios h3 a::after {
+  content: "\f054";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 1rem;
+  opacity: .5;
+  position: relative;
+  left: 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.servicios h3 a:hover::after {
+  left: -.5rem;
+  opacity: 1;
+  color: #12AFAF; }
