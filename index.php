@@ -132,20 +132,31 @@
       </div>
    </section>
    <!-- Se usa la etiqueta main para que el buscador de google ponga mayor relevancia a esta etiqueta -->
-   <main class="servicios p-y-1">
-      <h2>Nuestros Servicios</h2>
-      <article>
-         <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
-         <h3><a href="#"> Desarrollo de Aplicaciones Mobiles </a></h3>
-      </article>
-      <article>
-         <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
-         <h3><a href="#">Consultoría Tecnológica</a></h3>
-      </article>
-      <article>
-         <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
-         <h3><a href="#">Marketing y publicidad Movil</a></h3>
-      </article>
+   <main class="servicios py-3">
+      <div class="container">
+         <h2>Nuestros Servicios</h2>
+         <div class="row">
+            <article class="col-md-4">
+               <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
+               <h3><a href="#"> Desarrollo de Aplicaciones Mobiles </a></h3>
+               <!-- hidden-sm-down (hidden-sm hidden-xs) = d-none d-md-block -->
+               <p class="d-none d-md-block">Desarrollamos aplicaciones móviles y plataformas web. Nuestra principal cualidad está en el desarrollo de software a medida de tus necesidades.</p>
+               <a href="#" class="btn btn-secondary d-none d-md-block">Más información</a>
+            </article>
+            <article class="col-md-4">
+               <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
+               <h3><a href="#">Consultoría Tecnológica</a></h3>
+               <p class="d-none d-md-block">Ofrecemos consultoría tecnológica especializada en movilidad, necesaria previo al desarrollo de cualquier proyecto.</p>
+               <a href="#" class="btn btn-secondary d-none d-md-block">Más información</a>
+            </article>
+            <article class="col-md-4">
+               <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
+               <h3><a href="#">Marketing y publicidad Movil</a></h3>
+               <p class="d-none d-md-block">Desarrollamos campañas publicitarias para tus APP. Hacemos conocer tu marca en el momento exacto para conseguir un mayor inpacto.</p>
+               <a href="#" class="btn btn-secondary d-none d-md-block">Más información</a>
+            </article>
+         </div>
+      </div>
    </main>
    <section class="ultimos-proyectos">
       <h2>Últimos proyectos</h2>
