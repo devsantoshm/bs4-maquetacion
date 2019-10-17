@@ -70,7 +70,7 @@
          </div>
       </div>
    </section>
-   <section class="tu-mejor-eleccion">
+   <section class="tu-mejor-eleccion py-3">
       <div class="container">
          <h2 class="text-center font-weight-bold">¿Porque somos <span>tu mejor elección?</span></h2>
          <p class="text-center">
@@ -78,7 +78,7 @@
          </p>
          <div class="row">
             <!-- col-xs-6 es igual a col-6 y es <576px-->
-            <ul class="col-6 col-lg-4">
+            <ul class="col-6 col-lg-4 text-center text-lg-left">
                <li>
                   <i class="fa fa-briefcase" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">
@@ -105,7 +105,7 @@
             <div class="d-none d-lg-block col-lg-4">
                <img src="images/mundo.svg">
             </div>
-            <ul class="col-6 col-lg-4">
+            <ul class="col-6 col-lg-4 text-center text-lg-right">
                <li>
                   <i class="fa fa-calendar" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">

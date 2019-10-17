@@ -179,3 +179,27 @@ body {
   margin: 0 auto;
   display: block;
   /* Para centrar la imagen se convierte en bloque */ }
+
+/* SECCIÓN TU MEJOR ELECCIÓN */
+.tu-mejor-eleccion h2 span {
+  color: #12AFAF; }
+
+.tu-mejor-eleccion ul li {
+  list-style: none; }
+
+.tu-mejor-eleccion ul li .fa {
+  font-size: 2.3rem;
+  background: #009500;
+  border-radius: 50%;
+  width: 4.7rem;
+  height: 4.7rem;
+  line-height: 4.7rem;
+  color: #fff; }
+
+.tu-mejor-eleccion ul li .contenedor-eleccion h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: .8rem; }
+
+.tu-mejor-eleccion ul li {
+  min-height: 9rem; }
