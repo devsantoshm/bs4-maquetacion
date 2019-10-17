@@ -78,49 +78,53 @@
          </p>
          <div class="row">
             <!-- col-xs-6 es igual a col-6 y es <576px-->
-            <ul class="col-6">
+            <ul class="col-6 col-lg-4">
                <li>
                   <i class="fa fa-briefcase" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">
                      <h4>Aplicaciones para la nube</h4> 
-                     <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>  
+                     <!-- hidden-md-down would now be: d-none d-lg-block -->
+                     <p class="d-none d-lg-block">Para empresa que requiera ampliar sus plataformas de gestión.</p>  
                   </div>  
                </li>
                <li>
                   <i class="fa fa-bullhorn" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">
                       <h4>Fábrica de software</h4>
-                      <p>Servicios de mejora correctiva y evolutiva para sus aplicaciones.</p>
+                      <p class="d-none d-lg-block">Servicios de mejora correctiva y evolutiva para sus aplicaciones.</p>
                   </div>
                </li>
                <li>
-                  <i class="fa fa-comment-o" aria-hidden="true"></i>
+                  <i class="fa fa-comment" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">
                       <h4>Gestión en la Nube</h4>
-                      <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
+                      <p class="d-none d-lg-block">Para empresa que requiera ampliar sus plataformas de gestión.</p>
                   </div>
                </li>
             </ul>
-            <ul class="col-6">
+            <div class="d-none d-lg-block col-lg-4">
+               <img src="images/mundo.svg">
+            </div>
+            <ul class="col-6 col-lg-4">
                <li>
                   <i class="fa fa-calendar" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">
                       <h4>Videojuegos</h4>
-                      <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
+                      <p class="d-none d-lg-block">Para empresa que requiera ampliar sus plataformas de gestión.</p>
                   </div>
                </li>
                <li>
-                  <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  <i class="fa fa-check-square" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">
                       <h4>Diseño personalizado</h4>
-                      <p>Customiza hasta el último píxel de tu App. Infinitas Posibilidades.</p>
+                      <p class="d-none d-lg-block">Customiza hasta el último píxel de tu App. Infinitas Posibilidades.</p>
                   </div>
                </li>
                <li>
                   <i class="fa fa-cogs" aria-hidden="true"></i>
                   <div class="contenedor-eleccion">
                       <h4>Funciones a medida</h4>
-                      <p>Tienes más de 50 funciones predesarrolladas para escoger.</p>
+                      <p class="d-none d-lg-block">Tienes más de 50 funciones predesarrolladas para escoger.</p>
                   </div>
                </li>
             </ul>
