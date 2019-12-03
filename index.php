@@ -7,6 +7,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+   <!-- Carga de Galeria de imágenes -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
@@ -158,12 +160,36 @@
          </div>
       </div>
    </main>
-   <section class="ultimos-proyectos">
-      <h2>Últimos proyectos</h2>
-      <a href="#">
-         <h4>App Lima Travels</h4>
-         <img src="images/proyecto1.jpg" alt="App Lima Travels">
-      </a>
+   <section class="ultimos-proyectos py-3">
+      <div class="container">
+         <h2 class="text-center font-weight-bold">Últimos proyectos</h2>
+         <div class="owl-carousel">
+            <a href="#">
+              <h4>App Lima Travels</h4>
+              <img src="images/proyecto1.jpg" alt="App Lima Travels">
+            </a>
+            <a href="#">
+              <h4>Apps Uber</h4>
+              <img src="images/proyecto2.jpg" alt="Apps Uber">
+            </a>
+            <a href="#">
+              <h4>App Pizza Perú</h4>
+              <img src="images/proyecto3.jpg" alt="App Pizza Perú">
+            </a>
+            <a href="#">
+              <h4>App Muebles Hoy</h4>
+              <img src="images/proyecto4.jpg" alt="App Muebles Hoy">
+            </a>
+            <a href="#">
+              <h4>App Clima Perú</h4>
+              <img src="images/proyecto5.jpg" alt="App Clima Perú">
+            </a>
+            <a href="#">
+              <h4>App  Playa</h4>
+              <img src="images/proyecto6.jpg" alt="App  Playa">
+            </a>
+         </div>
+      </div>
    </section>
    <footer class="piedepagina" role="contentinfo">
       <p>2016 © NETWORK Todos los derechos reservados</p>
@@ -178,5 +204,32 @@
    <!-- <script src="js/bootstrap.min.js"></script> -->
    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.js"></script>
+   <script type="text/javascript">
+     $('.owl-carousel').owlCarousel({
+         loop: true,
+         margin: 0,
+         nav: true,
+         autoWidth: false,
+         navText: ['<i class="fa fa-arrow-circle-left" title="Anterior"></i>', '<i class="fa  fa-arrow-circle-right" title="Siguiente"></i>'],
+         responsive: {
+             0: {
+                 items: 1
+             },
+             500: {
+                 items: 2,
+                 margin: 20
+             },
+             800: {
+                 items: 3,
+                 margin: 20
+             },
+             1000: {
+                 items: 4,
+                 margin: 20
+             }
+         }
+     })
+   </script>
 </body>
 </html>
