@@ -300,3 +300,57 @@ SECCION ÚLTIMOS PROYECTOS
 .ultimos-proyectos .owl-prev:hover,
 .ultimos-proyectos .owl-next:hover {
   color: #009500 !important; }
+
+.ultimos-proyectos .owl-prev:focus,
+.ultimos-proyectos .owl-next:focus {
+  outline: none;
+  /*Quitar el contorno cuando haces click*/ }
+
+/*----------------------------------------
+SECCION PIE DE PAGINA
+-----------------------------------------*/
+.piedepagina {
+  background: #111111;
+  color: #B7B7B7;
+  text-align: center;
+  font-size: .9rem; }
+
+.piedepagina .redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.piedepagina .redes-sociales a {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 .5rem;
+  opacity: .7;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.piedepagina .redes-sociales a:hover {
+  opacity: 1; }
+
+.ir-arriba {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #12afaf;
+  text-decoration: none;
+  z-index: 99999;
+  line-height: 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.ir-arriba:hover,
+.ir-arriba:focus {
+  outline: 0;
+  text-decoration: none;
+  color: #fff; }

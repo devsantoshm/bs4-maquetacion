@@ -191,16 +191,18 @@
          </div>
       </div>
    </section>
-   <footer class="piedepagina" role="contentinfo">
-      <p>2016 © NETWORK Todos los derechos reservados</p>
-         <ul>
-             <li><a href="#">Facebook</a></li>
-             <li><a href="#">Twitter</a></li>
-             <li><a href="#">Youtube</a></li>
+   <footer class="piedepagina py-3" role="contentinfo">
+      <div class="container">
+         <p>2016 © NETWORK Todos los derechos reservados</p>
+         <ul class="redes-sociales">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
          </ul>
+      </div>
    </footer>
 
-   <a href="#ir-arriba">Ir arriba</a>
+   <a class="ir-arriba" href="#"><i class="fas fa-arrow-circle-up"></i></a>
    <!-- <script src="js/bootstrap.min.js"></script> -->
    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>

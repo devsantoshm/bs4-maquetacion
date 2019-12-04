@@ -248,3 +248,51 @@ SECCION ÚLTIMOS PROYECTOS
 .ultimos-proyectos .owl-next:hover {
     color: $secundario !important;
 }
+.ultimos-proyectos .owl-prev:focus,
+.ultimos-proyectos .owl-next:focus {
+    outline: none; /*Quitar el contorno cuando haces click*/
+}
+
+/*----------------------------------------
+SECCION PIE DE PAGINA
+-----------------------------------------*/
+.piedepagina {
+    background: $texto;
+    color: #B7B7B7;
+    text-align: center;
+    font-size: .9rem;
+}
+.piedepagina .redes-sociales {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.piedepagina .redes-sociales a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 .5rem;
+    opacity: .7;
+    transition: all .5s ease;
+}
+.piedepagina .redes-sociales a:hover {
+    opacity: 1;
+}
+.ir-arriba {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    color: rgb(18, 175, 175);
+    text-decoration: none;
+    z-index: 99999;
+    line-height: 0;
+    transition: all .5s ease;
+}
+.ir-arriba:hover,
+.ir-arriba:focus {
+    outline: 0;
+    text-decoration: none;
+    color: #fff;
+}
