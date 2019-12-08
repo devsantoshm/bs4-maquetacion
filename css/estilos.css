@@ -361,7 +361,14 @@ EMPIEZAN LAS MEDIAS QUERIES
 @media (min-width: 768px) {
   #menu-principal {
     height: auto !important;
-    display: block; }
+    display: block;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    margin-left: auto;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
 
   #menu-principal ul {
     display: -webkit-box;
@@ -381,4 +388,22 @@ EMPIEZAN LAS MEDIAS QUERIES
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
     color: #12AFAF;
-    border-bottom: 4px solid; } }
+    border-bottom: 4px solid; }
+
+  .boton-buscar {
+    margin-left: 1rem;
+    margin-right: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+
+  #bloque-buscar {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    position: absolute;
+    width: 20rem;
+    right: 3rem;
+    top: 2.8rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; } }

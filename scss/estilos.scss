@@ -304,6 +304,9 @@ EMPIEZAN LAS MEDIAS QUERIES
     #menu-principal {
         height: auto !important;
         display: block;
+        flex: 0 1 auto;
+        margin-left: auto;
+        order: 1
     }
     #menu-principal ul {
         display: flex;
@@ -321,5 +324,18 @@ EMPIEZAN LAS MEDIAS QUERIES
     #menu-principal ul li a:hover {
         color: #12AFAF;
         border-bottom: 4px solid
+    }
+    .boton-buscar {
+        margin-left: 1rem;
+        margin-right: 0;
+        order: 2
+    }
+    #bloque-buscar {
+        order: 3;
+        position: absolute;
+        width: 20rem;
+        right: 3rem;
+        top: 2.8rem;
+        transition: all .5s ease
     }
 }
