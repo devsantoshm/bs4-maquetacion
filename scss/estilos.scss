@@ -338,4 +338,41 @@ EMPIEZAN LAS MEDIAS QUERIES
         top: 2.8rem;
         transition: all .5s ease
     }
+
+    .servicios article {
+        margin: 1rem 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center
+    }
+    .servicios img {
+        flex: 0 0 160px;
+        overflow: hidden;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        transition: all 1s ease
+    }
+    .servicios article:hover img {
+        transform: rotateY(360deg);
+        transform-style: preserve-3d
+    }
+    .servicios h3 a::after {
+        content: ""
+    }
+    .servicios h3 {
+        margin: 0 0 .5rem 0;
+        font-size: 1.5rem;
+        flex: 0 1 auto;
+        width: 100%
+    }
+    .servicios h3 a {
+        display: block;
+        width: 100%
+    }
+    .servicios p {
+        width: 100%
+    }
+    .servicios .btn-secondary {
+        margin-top: auto
+    }
 }
