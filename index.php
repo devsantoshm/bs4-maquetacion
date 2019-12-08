@@ -23,7 +23,8 @@
             <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
                <i class="fa fa-search"></i>
             </button>
-            <button type="button" class="boton-menu" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+            <!-- hidden-md-up = d-md-none -->
+            <button type="button" class="boton-menu d-md-none" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
                <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
 
