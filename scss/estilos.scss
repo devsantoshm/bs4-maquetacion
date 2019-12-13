@@ -297,6 +297,41 @@ SECCION PIE DE PAGINA
     color: #fff;
 }
 
+/*-------------------------------------------
+ESTILOS PAGINA NOSOTROS
+--------------------------------------------*/
+.paginas-internas .bienvenidos {
+    height: 50vh;
+}
+.paginas-internas .ruta {
+    background: $principal;
+    color: #fff;
+}
+.paginas-internas .ruta a {
+    color: #fff;
+    text-decoration: underline;
+}
+.paginas-internas .ruta a:hover {
+    text-decoration: none
+}
+.paginas-internas .panel .panel-heading a {
+    background: $principal;
+    color: #fff;
+    display: block;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+.paginas-internas .panel .panel-heading a:hover {
+    background: $secundario;
+    color: #fff;
+    cursor: pointer;
+}
+.paginas-internas .panel .collapse p {
+    text-align: justify;
+}
+
 /*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/
