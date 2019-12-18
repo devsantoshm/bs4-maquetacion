@@ -65,7 +65,7 @@
       </div>
     </section>
 
-    <main class="py-3">
+    <main class="py-3 lista-servicios">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
