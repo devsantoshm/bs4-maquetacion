@@ -103,11 +103,13 @@ body{
 .texto-encabezado .display-4 {
     margin-top: 4rem;
 }
+.texto-encabezado .btn-primary {
+     margin-top: 1rem;
+}
 .btn-primary {
     color: #fff;
     background-color: $principal;
     border-color: transparent;
-    margin-top: 1rem;
     transition: all .5s ease;
 }
 .btn-primary:hover,
