@@ -9,6 +9,7 @@
  <link rel="stylesheet" type="text/css" href="css/all.min.css">
  <!-- Carga de Galeria de imágenes -->
  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/animate.min.css">
  <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body class="paginas-internas">
@@ -47,9 +48,9 @@
 
 <div class="texto-encabezado text-center">
  <div class="container">
-  <h1 class="display-4">
+  <h1 class="display-4 wow bounceIn">
   Contacto</h1>
-  <p>Estamos listos para ayudarte</p>   
+  <p class="wow bounceIn" data-wow-delay=".3s">Estamos listos para ayudarte</p>   
 </div>
 </div>
 
@@ -128,5 +129,7 @@
   })
 </script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/sitio.js"></script>
 </body>
 </html>
