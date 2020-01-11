@@ -283,6 +283,7 @@ SECCION PIE DE PAGINA
   text-decoration: none;
   z-index: 99999;
   line-height: 0;
+  display: none;
   transition: all .5s ease; }
 
 .ir-arriba:hover,

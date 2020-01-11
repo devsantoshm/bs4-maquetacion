@@ -14,7 +14,7 @@
 </head>
 <body class="paginas-internas">
     <section class="bienvenidos">
-      <header class="encabezado navbar fixed-top" role="banner">
+      <header class="encabezado navbar fixed-top" role="banner" id="encabezado">
          <div class="container">
             <a href="index.php" class="logo">
                <img src="images/logo.svg" alt="Logo del sitio">
@@ -141,11 +141,12 @@
       </div>
     </footer>
 
-   <a class="ir-arriba" href="#"><i class="fas fa-arrow-circle-up"></i></a>
+   <a data-scroll class="ir-arriba" href="#encabezado"><i class="fas fa-arrow-circle-up"></i></a>
    <!-- <script src="js/bootstrap.min.js"></script> -->
    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
    <script src="js/wow.min.js"></script>
+   <script src="js/smooth-scroll.min.js"></script>
    <script src="js/sitio.js"></script>
 </body>
 </html>
