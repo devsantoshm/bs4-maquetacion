@@ -14,18 +14,35 @@ body {
   background-attachment: fixed !important;
   height: 100vh;
   /* Permite visualizar todo el alto de la pantalla con viewport height */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 .encabezado {
   background: #111111;
   color: #fff;
-  padding: .5rem 0; }
+  padding: .5rem 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  /*Cambio de valores de propiedad a propiedad sea progresivo, para que el efecto o cambio no sea tan duro*/ }
+
+.encabezado.fondo-menu {
+  background: #064e4e;
+  padding: 1rem 0; }
 
 .encabezado .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .encabezado .logo img {
   width: 150px;
@@ -51,28 +68,38 @@ body {
 
 /*Estilos bloque buscar*/
 #bloque-buscar {
-  flex: 1 1 100%; }
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%; }
 
 .contenedor-bloque-buscar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 3rem;
   margin: 1rem 0; }
 
 .contenedor-bloque-buscar input[type="text"] {
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   border: 0;
   border-radius: 5px 0 0 5px;
   padding: 1rem; }
 
 .contenedor-bloque-buscar input[type="submit"] {
-  flex: 0.1 1 auto;
+  -webkit-box-flex: 0.1;
+      -ms-flex: 0.1 1 auto;
+          flex: 0.1 1 auto;
   border: 0;
   border-radius: 0 5px 5px 0;
   background: #12AFAF;
   color: #fff; }
 
 #menu-principal {
-  flex: 1 1 100%; }
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%; }
 
 #menu-principal ul {
   padding: 0;
@@ -93,10 +120,16 @@ body {
   color: #12AFAF; }
 
 .texto-encabezado {
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   /*para que ocupe todo el alto */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .texto-encabezado .display-4 {
   margin-top: 4rem; }
@@ -108,6 +141,7 @@ body {
   color: #fff;
   background-color: #12AFAF;
   border-color: transparent;
+  -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
 .btn-primary:hover,
@@ -121,15 +155,30 @@ body {
   /* Para que el enlace pueda tener la animación */
   color: #fff;
   font-size: 4rem;
-  animation: flecha-animada 2s ease-in-out infinite; }
+  -webkit-animation: flecha-animada 2s ease-in-out infinite;
+          animation: flecha-animada 2s ease-in-out infinite; }
+
+@-webkit-keyframes flecha-animada {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px); }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
 
 @keyframes flecha-animada {
   from {
-    transform: translateY(0); }
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
   50% {
-    transform: translateY(6px); }
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px); }
   to {
-    transform: translateY(0); } }
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
 /* SECCIÓN AGENCIA */
 .agencia {
   background: #12AFAF;
@@ -173,12 +222,18 @@ body {
   color: #fff; }
 
 .servicios article {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 1rem 0; }
 
 .servicios img {
-  flex: 0 0 60px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
   overflow: hidden;
   /* para ocultar el svg */
   margin-right: 1rem; }
@@ -186,14 +241,22 @@ body {
 .servicios h3 {
   margin: 0;
   font-size: 1.1rem;
-  flex: 1 1 auto; }
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
 
 .servicios h3 a {
   color: #fff;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .servicios h3 a::after {
   content: "\f054";
@@ -204,6 +267,7 @@ body {
   opacity: .5;
   position: relative;
   left: 0;
+  -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
 .servicios h3 a:hover::after {
@@ -228,8 +292,12 @@ SECCION ÚLTIMOS PROYECTOS
   padding-right: 0; }
 
 .ultimos-proyectos .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: .3rem 0; }
 
 .ultimos-proyectos .owl-prev,
@@ -237,6 +305,7 @@ SECCION ÚLTIMOS PROYECTOS
   font-size: 3rem !important;
   margin: 0 .5rem;
   color: #12AFAF !important;
+  -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
 .ultimos-proyectos .owl-prev:hover,
@@ -258,8 +327,12 @@ SECCION PIE DE PAGINA
   font-size: .9rem; }
 
 .piedepagina .redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -269,6 +342,7 @@ SECCION PIE DE PAGINA
   font-size: 2rem;
   margin: 0 .5rem;
   opacity: .7;
+  -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
 .piedepagina .redes-sociales a:hover {
@@ -284,6 +358,7 @@ SECCION PIE DE PAGINA
   z-index: 99999;
   line-height: 0;
   display: none;
+  -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
 .ir-arriba:hover,
@@ -316,6 +391,7 @@ ESTILOS PAGINA NOSOTROS
   padding: 1rem;
   border-radius: 5px;
   text-decoration: none;
+  -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
 .paginas-internas .panel .panel-heading a:hover {
@@ -344,11 +420,14 @@ ESTILOS PAGINA SERVICIOS
   font-size: 6rem;
   color: #12AFAF;
   margin-bottom: 1rem;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease; }
 
 .paginas-internas .lista-servicios .item-servicios:hover .fa {
-  transform: rotateY(360deg);
-  transform-style: preserve-3d; }
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d; }
 
 /*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
@@ -357,11 +436,17 @@ EMPIEZAN LAS MEDIAS QUERIES
   #menu-principal {
     height: auto !important;
     display: block;
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
     margin-left: auto;
-    order: 1; }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
 
   #menu-principal ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 0 0 0; }
 
@@ -371,6 +456,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     margin: 0 .3rem;
     border-top: 0px;
     border-bottom: 4px solid transparent;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease; }
 
   #menu-principal ul li.active a,
@@ -381,32 +467,47 @@ EMPIEZAN LAS MEDIAS QUERIES
   .boton-buscar {
     margin-left: 1rem;
     margin-right: 0;
-    order: 2; }
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
 
   #bloque-buscar {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
     position: absolute;
     width: 20rem;
     right: 3rem;
     top: 2.8rem;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease; }
 
   .servicios article {
     margin: 1rem 0;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center; }
 
   .servicios img {
-    flex: 0 0 160px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 160px;
+            flex: 0 0 160px;
     overflow: hidden;
     margin-right: 0;
     margin-bottom: 1rem;
+    -webkit-transition: all 1s ease;
     transition: all 1s ease; }
 
   .servicios article:hover img {
-    transform: rotateY(360deg);
-    transform-style: preserve-3d; }
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d; }
 
   .servicios h3 a::after {
     content: ""; }
@@ -414,7 +515,9 @@ EMPIEZAN LAS MEDIAS QUERIES
   .servicios h3 {
     margin: 0 0 .5rem 0;
     font-size: 1.5rem;
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
     width: 100%; }
 
   .servicios h3 a {
@@ -429,12 +532,19 @@ EMPIEZAN LAS MEDIAS QUERIES
     margin-top: auto; }
 
   .paginas-internas .lista-servicios .col-md-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     /* para que article tenga la misma altura que col-md-4 */ }
 
   .paginas-internas .lista-servicios .item-servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
 
   .paginas-internas .lista-servicios .item-servicios .btn-primary {
     margin-top: auto; } }
@@ -443,29 +553,40 @@ EMPIEZAN LAS MEDIAS QUERIES
     font-size: 16px; }
 
   .tu-mejor-eleccion ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 7rem; }
 
   .tu-mejor-eleccion ul li .fa {
     text-align: center;
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
     margin-right: 1rem;
+    -webkit-transition: all 1s ease;
     transition: all 1s ease; }
 
   .tu-mejor-eleccion ul li:hover .fa {
-    transform: rotateY(360deg);
-    transform-style: preserve-3d;
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
     background: #12AFAF; }
 
   .contenedor-eleccion {
-    flex: 1 0 0px; }
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0px; }
 
   .tu-mejor-eleccion ul li .contenedor-eleccion h4 {
     margin-top: 0;
     font-size: 1rem; }
 
   .tu-mejor-eleccion ul:first-child .fa {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     margin-left: 1rem;
     margin-right: 0; }
 
